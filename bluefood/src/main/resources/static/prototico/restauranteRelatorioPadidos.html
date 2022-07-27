@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlueFood</title>
+    <link rel="stylesheet" type="text/css" href="css/bf_estiloSistema.css">
+</head>
+<body>
+    <header>
+        <div id="divLogotipoSistema">
+            <span id="spanAuxiliarDeAlinhamentoVertical"></span>
+            <a href="">
+                <img src="imagens/bf_logotipoSistema.jpg" id="imgLogoTipoSistema">
+            </a>            
+        </div> 
+        <div id="divUsuarioLogado">
+            Olá nome do Usuário
+        </div>       
+    </header>
+    <br><br>
+    <!-- Cabeçalho - fim -->
+    <div>
+        <h1>Relatório de Itens</h1>
+        <fieldset id="fieldsetFiltros">
+            <legend>Filtros</legend>
+            <label for="numero">Item: </label><br>
+            <input type="text" name="numero" id="numero"><br>
+            <label for="inicio">Inicio: </label><br>
+            <input type="date" name="inicio" id="inicio"><br>
+            <label for="fim">Fim: </label><br>
+            <input type="date" name="fim" id="fim"><br>
+            <input type="button" value="Buscar">
+        </fieldset>
+    </div>
+    <br><br>
+
+    <table>
+        <tr>
+        <th>Pedido</th>
+        <th>Nome</th>
+        <th>Endereço</th>
+        <th>Valor</th>
+        </tr>
+
+        <tr>
+            <td><input type="button" value="#35334" onclick="location.href='restaurantePedido.html';"></td>
+            <td>Samuel</td>
+            <td>Rua das flores 75</td>
+            <td>R$ 65,00</td>
+        </tr>
+        
+        <tr>
+            <td><input type="submit" value="#13452" onclick="location.href='restaurantePedido.html';"></td>
+            <td>Henrique</td>
+            <td>Avenida dos Estados 51</td>
+            <td>R$ 95,00</td>
+        </tr>
+
+        <tr>
+            <td><input type="submit" value="#23452" onclick="location.href='restaurantePedido.html';"></td>
+            <td>Luiz</td>
+            <td>Avenida dos ponpeos 1</td>
+            <td>R$ 45,00</td>
+        </tr>
+
+        <tr>
+            <td><input type="submit" value="#34523" onclick="location.href='restaurantePedido.html';"></td>
+            <td>Carlos</td>
+            <td>Rua das Embaixadas 300</td>
+            <td>R$ 100,00</td>
+        </tr>
+
+        <tr>
+            <td><input type="submit" value="#34524" onclick="location.href='restaurantePedido.html';"></td>
+            <td>Evandro</td>
+            <td>Rua José Antonio 512</td>
+            <td>R$ 95,00</td>
+        </tr>
+
+        <tr>
+            <td><input type="submit" value="#34525" onclick="location.href='restaurantePedido.html';"></td>
+            <td>Fernando </td>
+            <td>Avenida Atlântica 889</td>
+            <td>R$ 95,00</td>
+        </tr>
+
+        <tr>
+            <td><input type="submit" value="#34527" onclick="location.href='restaurantePedido.html';"></td>
+            <td>Pedro</td>
+            <td>Avenida dos Autonomistas 5655</td>
+            <td>R$ 32,00</td>
+        </tr>
+
+        <tr>
+            <td><input type="submit" value="#34526" onclick="location.href='restaurantePedido.html';"></td>
+            <td>Henrique</td>
+            <td>Avenida dos Estados 51</td>
+            <td>R$ 95,00</td>
+        </tr>
+    </table>
+    <br><br>
+
+    <input type="button" value="Voltar" onclick="location.href='restauranteHome.html';">
+    
+      <!--Rodapé - Início-->
+    </body>
+    </html>
